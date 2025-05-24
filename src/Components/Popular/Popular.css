@@ -1,0 +1,10 @@
+.popular {
+    width: 100vw;
+}
+
+@media (max-width: 628px) {
+    .popular h1 {
+        font-size: 32px;
+        padding: 18px;
+    }
+}

@@ -1,0 +1,40 @@
+.delivery {
+    padding: 80px;
+    width: 100vw;
+}
+.delivery h1 {
+    font-weight: 800;
+}
+.delivery-info {
+    display: flex;
+}
+
+@media (max-width: 1024px) {
+    .delivery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.4fr 0.4fr;
+        gap: 1.9rem;
+    }
+    .delivery h1 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .delivery p {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 767px) {
+    .delivery {
+        padding: 40px 18px 0px 18px;
+        gap: .4rem;
+    }
+    .delivery h1 {
+        font-size: 21px;
+        font-weight: 700;
+    }
+    .delivery p {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,14 @@
+.brand-slider-container img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .brand-slider-container img {
+        width: 100px;
+        height: 65px;
+        margin: auto 2px;
+    }
+}

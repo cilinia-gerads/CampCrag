@@ -1,0 +1,9 @@
+.relativeproduct {
+    padding: 10rem 0rem 2rem 0rem;
+}
+
+@media (max-width: 768px) {
+    .relativeproduct {
+        padding: 5rem 0rem;
+    }
+}

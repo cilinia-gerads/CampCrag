@@ -1,0 +1,73 @@
+.hero-slide {
+    position: relative;
+}
+.hero-slide-wrapper {
+    height: 80vh;
+    width: 100vw;
+    z-index: 98;
+    overflow: hidden;
+}
+.hero-slide-wrapper-holder {
+    display: grid;
+    grid-template-columns: repeat(4, 100%);
+    height: 100%;
+    width: 100%;
+    animation: slider 30s ease-in-out infinite alternate;
+}
+#slider-img-1 {
+    background: url('https://ozbackcountry.co.nz/cdn/shop/files/Climb.webp?v=1732536240&width=1750');
+    background-position: center;
+    background-size: cover;
+}
+#slider-img-2 {
+    background-image: url("https://ozbackcountry.co.nz/cdn/shop/collections/iStock-1170399594.jpg?v=1727779019&width=1296");
+    background-position: center;
+    background-size: cover;
+}
+#slider-img-3 {
+    background-image: url("https://ozbackcountry.co.nz/cdn/shop/files/Bikepacking.webp?v=1732536333&width=1750");
+    background-position: center;
+    background-size: cover;
+}
+#slider-img-4 {
+    background-image: url("https://ozbackcountry.co.nz/cdn/shop/files/iStock.jpg?v=1732536313&width=1750");
+    background-position: center;
+    background-size: cover;
+}
+@keyframes slider {
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-200%);}
+    40%{transform: translateX(-200%);}
+    50%{transform: translateX(-200%);}
+    60%{transform: translateX(-300%);}
+    70%{transform: translateX(-300%);}
+    80%{transform: translateX(-300%);}
+    90%{transform: translateX(0%);}
+    100%{transform: translateX(0%);}
+}
+.hero-text-wrapper {
+    position: relative;
+    top: 50%;
+    left: 0%;
+    width: 100vw;
+    z-index: 99;
+    text-align: center;
+    font-weight: 600;
+    color: var(--gray1);
+    background-color: rgba(236, 223, 204, 0.5);
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .hero-slide-wrapper {
+        height: 70vh;
+    }
+    .hero-text-wrapper h1 {
+        font-size: 26px;
+    }
+    .hero-text-wrapper p {
+        font-size: 12px;
+    }
+}

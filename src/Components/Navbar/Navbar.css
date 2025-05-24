@@ -1,0 +1,111 @@
+.navbar {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: -8px 0px;
+}
+
+.navbar-top {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    width: 100vw;
+}
+.navbar-top * {
+    display: flex;
+    text-transform: capitalize;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px 0 5px;
+}
+
+.navbar-middle {
+    background: var(--darkgray);
+    width: 100vw;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 20px;}
+.mobile-menu {
+    display: none;
+}
+
+.navbar-bottom {
+    background: var(--gray1);
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.navbar-bottom-navlink {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.navbar-bottom hr {
+    background: var(--mint);
+    height: 3px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .navbar-top * {
+        font-size: 10px;
+        margin: 0px 1.5px;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .logo-mobile-menu {
+        position: fixed;
+        top: 30px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        z-index: 130;
+        justify-content: space-between;
+        align-items: center;
+        background: var(--darkgray);
+        padding: 14px;
+    }
+    .navbar-bottom {
+        position: fixed;
+        top: 30px;
+        right: 0;
+        bottom: 0;
+        padding-top: 80px;
+        z-index: 100;
+        width: 200px;
+        transition: 1s;
+        background: var(--darkgray);
+    }
+    .navbar-bottom nav {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+    }
+    .navbar-middle {
+        padding-top: 100px;
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+    .cart-login {
+        position: fixed;
+        top: 380px;
+        right: 0px;
+        z-index: 110;
+        width: 200px;
+        transform: translateX(15%);
+        transition: 1s;
+    }
+    .hide-mobile-menu {
+        right: -200px;
+    }
+    .logo-mobile-menu-stickyTop {
+        top: 0px;
+        transition: top 0.3s ease-in-out;
+    }
+}

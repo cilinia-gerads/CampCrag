@@ -1,0 +1,24 @@
+.search-result, .search-recommendation {
+    position: absolute;
+    width: 100%;
+    max-width: 24rem;
+    max-height: 400px;
+    overflow-y: scroll;
+    border-radius: 8px;
+    background: var(--lightgray);
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 2px;
+    z-index: 120;
+    cursor: pointer;
+}
+.search-recommendation div {
+    padding: 5px 15px 1px 15px;
+}
+.search-recommendation div:hover {
+    background: #efefef;
+    color: var(--gray2);
+    border-radius: 5px;
+}
+#clearBtn {
+    cursor: pointer;
+}

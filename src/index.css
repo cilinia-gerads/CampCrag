@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  --black: black;
+  --darkgray: #1E201E;
+  --gray1: #3C3D40;
+  --gray2: #374151;
+  --lightgray: #8c8c8c;
+  --cream: #FAF6E9;
+  --mint: #029fae;
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: var(--cream);
+  color: var(--gray2);
+  text-transform: capitalize;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+hr {
+    background: var(--gray2);
+    height: 3px;
+    border: none;
+    margin: 0 20px;
+}
+button {
+    text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
+}
