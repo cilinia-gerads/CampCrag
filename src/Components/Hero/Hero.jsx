@@ -12,9 +12,7 @@ const Hero = () => {
       </div>
       {/* hero-slide */}
       <div className="hero-slide">
-        {/* wrapper */}
         <div className="hero-slide-wrapper">
-          {/* wrapper-holder */}
           <div className="hero-slide-wrapper-holder">
             <div id="slider-img-1"></div>
             <div id="slider-img-2"></div>

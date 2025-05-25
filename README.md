@@ -7,6 +7,7 @@ This project is an ecommerce front-end website and is for educational and portfo
 - daisyui
 - lucide react
 - reack slick
+- react-toastify
 
 ## main tutorials
 - [ecommerce tutorial credit1](https://www.youtube.com/watch?v=zyqkneMAnfc&t=2025s)
@@ -15,8 +16,8 @@ This project is an ecommerce front-end website and is for educational and portfo
 
 ## Navbar component
 - add hidden tab menu (mobile responsive)
-     `navbar-bottom`: NavbarLink
-     `navbar-middle`: cart, sign-in
+     `navbar-bottom`: NavLink
+     `navbar-middle`: cart, login
 
 - [laptop reaposive](./public/readme3.png)
 - [mobile responsive hide menu ](./public/readme1.png)
@@ -32,13 +33,20 @@ This project is an ecommerce front-end website and is for educational and portfo
 ## Brand component
 - Brand logo slider with auto-play using **React Slick**
 
-## Feature
+## ProductDisplay component
+add to cart notification
+- Build with **react-toastify**
+- [add to cart notification tutorial](https://www.youtube.com/watch?v=NHlExjLI-d0&t=305s)
+
+## Features
 - Add products to cart
-- Dynamic total price calculation
+- Add to cart notification
+- Total price calculation
 - Product category pages
 - Search box for filtering products
 - Login / Register pages
 - Fully responsive (mobile, tablet, desktop)
+- Navbar Mobile Menu
 
 ## Note
 > This is a frontend-only project. Backend functionality like authentication and cart persistence is not implemented.

@@ -44,19 +44,16 @@ const CartItems = () => {
                 <div className='flex flex-1 flex-col gap-8'>
                     <h1 className='text-2xl font-bold'>cart totals</h1>
                     <div className='cartitem-total-items mr-30'>
-                        {/* cartitem-total-item same classname */}
                         <div className='cartitem-total-item'>
                             <p>subtotal</p>
                             <p>฿{Number(getTotalCartAmount()).toLocaleString()}</p>
                         </div>
                         <hr />
-                        {/* cartitem-total-item same classname */}
                         <div className='cartitem-total-item'>
                             <p>shipping fee</p>
                             <p>free</p>
                         </div>
                         <hr />
-                        {/* cartitem-total-item same classname */}
                         <div className='cartitem-total-item'>
                             <h3>total</h3>
                             <h3>฿{Number(getTotalCartAmount()).toLocaleString()}</h3>

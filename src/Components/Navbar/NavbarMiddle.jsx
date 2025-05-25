@@ -28,7 +28,8 @@ const NavbarMiddle = () => {
                         <TentTree size={60} />CampCrag
                 </Link>
                 {/* mobile-menu */}
-                <div className="mobile-menu" onClick={() => toggleMenu()}>
+                <div className="mobile-menu relative" onClick={() => toggleMenu()}>
+                    <div className="badge badge-sm absolute top-[-5px] right-[-6px] bg-[#029fae]">{getTotalcartItems()}</div>
                     <AlignRight size={38}/>
                 </div>
             </div>
@@ -37,20 +38,19 @@ const NavbarMiddle = () => {
                 <SearchBox />
             </div>
             {/* cart + login */}
-            <div className={`cart-login ${mobileMenu ? '' : 'hide-mobile-menu'}`}>
+            <div className={`cart-login flex items-center gap-2 ${mobileMenu ? '' : 'hide-mobile-menu'}`}>
                 {/* cart */}
-                <button className="btn cart capitalize rounded-xl relative p-4">
+                <button className="cart capitalize rounded-xl relative p-4">
                     <Link to='/cart'>
                         <ShoppingCart size={30} />
                         <div className="badge badge-sm absolute top-0 right-0 bg-[#029fae]">{getTotalcartItems()}</div>
                     </Link>
                 </button>
                 {/* login */}
-                <div className="dropdown login">
-                    <div tabIndex={0} role="button" className="btn rounded-xl"><User /></div>
-                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-1 w-24 p-2 shadow-sm">
-                    <li><Link to='/auth/login'>Login</Link></li>
-                    </ul>
+                <div className="login">
+                    <Link to='/auth/login'>
+                        <User size={28} />
+                    </Link>
                 </div>
             </div>
         </div>
