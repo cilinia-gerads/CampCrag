@@ -34,7 +34,7 @@ This project is an ecommerce front-end website and is for educational and portfo
   - [add to cart notification tutorial](https://www.youtube.com/watch?v=NHlExjLI-d0&t=305s)
 - Total price calculation
 
-**login/register
+**login/register**
 - UI pages built
 - Backend authentication planned, but **not functional** in this version
 
