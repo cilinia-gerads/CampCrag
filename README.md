@@ -17,8 +17,7 @@ This project is an ecommerce front-end website and is for educational and portfo
 ## Navbar component
 - **Responsive design** with mobile support
 - ![laptop reaposive](./public/readme3.png)
-- ![mobile responsive hide menu ](./public/readme1.png)
-- ![moblie responsive show menu](./public/readme2.png)
+- ![mobile responsive hide menu ](./public/readme1.png) ![moblie responsive show menu](./public/readme2.png)
 
 - Built search-box using **DaisyUI**
 - [search-box tutorial](https://www.youtube.com/watch?v=x7niho285qs&list=PLLFbby8jWbMc1OPwOAKwhgcqaZpVxoO_S&index=6) 
