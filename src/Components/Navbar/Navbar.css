@@ -100,6 +100,7 @@
         width: 200px;
         transform: translateX(15%);
         transition: 1s;
+        gap: 35px;
     }
     .hide-mobile-menu {
         right: -200px;
