@@ -15,22 +15,22 @@
     animation: slider 30s ease-in-out infinite alternate;
 }
 #slider-img-1 {
-    background: url('https://ozbackcountry.co.nz/cdn/shop/files/Climb.webp?v=1732536240&width=1750');
+    background: url('../Assets/hero1.webp');
     background-position: center;
     background-size: cover;
 }
 #slider-img-2 {
-    background-image: url("https://ozbackcountry.co.nz/cdn/shop/collections/iStock-1170399594.jpg?v=1727779019&width=1296");
+    background-image: url("../Assets/hero2.webp");
     background-position: center;
     background-size: cover;
 }
 #slider-img-3 {
-    background-image: url("https://ozbackcountry.co.nz/cdn/shop/files/Bikepacking.webp?v=1732536333&width=1750");
+    background-image: url("../Assets/hero3.webp");
     background-position: center;
     background-size: cover;
 }
 #slider-img-4 {
-    background-image: url("https://ozbackcountry.co.nz/cdn/shop/files/iStock.jpg?v=1732536313&width=1750");
+    background-image: url("../Assets/hero4.webp");
     background-position: center;
     background-size: cover;
 }
