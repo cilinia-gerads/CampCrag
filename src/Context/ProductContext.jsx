@@ -19,7 +19,7 @@ const ProductProvider = (props) => {
       ...prev,
       [itemId] : prev[itemId] +1
     }))
-    console.log(cartItem);
+    // console.log(cartItem);
   }
 
   const removeFromCart = (itemId) => {
