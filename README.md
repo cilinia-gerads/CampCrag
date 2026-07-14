@@ -1,6 +1,6 @@
 # CampCrag Ecommerce Webside
 This project is an ecommerce front-end website and is for educational and portfolio purposes.
-[Live Demo](https://mysideprojectcampcrag.netlify.app/)
+[Live Demo](https://campcrag.vercel.app/)
 ## Tech Stack
 - tailwindcss
 - daisyui
